@@ -1,0 +1,7 @@
+GET http://127.0.0.1:5000/api/orders/6330167db2139f8cc2097985
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmVjZDRiMDhiYjAyMmRjY2MzMmQ2MCIsImlhdCI6MTY2NDAxMjU4MCwiZXhwIjoxNjY2NjA0NTgwfQ.5vdqkE9LG6a8xXMMDEL4sVEKM7DCtQXZCUAnTsmm4ck
+
+{
+
+}
