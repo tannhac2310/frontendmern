@@ -15,8 +15,9 @@ import Message from "../components/Message";
 import { Link } from "react-router-dom";
 
 const CartScreen = () => {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const qty = Number.parseInt(searchParams.get("qty"));
+
   const { id } = useParams();
   const dispatch = useDispatch();
   const navigate = useNavigate();

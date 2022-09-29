@@ -24,7 +24,6 @@ const LoginScreen = () => {
     e.preventDefault();
     dispatch(login(email, password));
   };
-  console.log(error);
   return (
     <FormContainer>
       <h1>Sign In</h1>

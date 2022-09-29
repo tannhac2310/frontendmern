@@ -5,3 +5,22 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmVjZDRiM
 {
 
 }
+
+
+###########################################
+GET http://127.0.0.1:5000/api/orders/myorders
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmM1OGY5NGRkZWQ1YWI2OTMwMWFkMCIsImlhdCI6MTY2NDI2Mjc3OSwiZXhwIjoxNjY2ODU0Nzc5fQ.bv0iIJCn7AYSN6H1OohXMX9KPuzAZXcyH8DVDTWx4Ak
+
+{
+    
+}
+
+###########################################
+GET http://127.0.0.1:5000/api/orders/
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmM1OGY5NGRkZWQ1YWI2OTMwMWFjZiIsImlhdCI6MTY2NDI2NjY0NCwiZXhwIjoxNjY2ODU4NjQ0fQ.NNB3Dkzjb5iWDJ7fMdL_xS7X9ViyvIrbKgHbRqeuNT4
+
+{
+    
+}

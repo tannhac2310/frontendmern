@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Button, Row, Col, ListGroup, Image, Card } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import { saveShippingAddress } from "../actions/cartAction";
 import { createOrder } from "../actions/orderAction";
 import CheckoutSteps from "../components/CheckoutSteps";
 import Message from "../components/Message";
