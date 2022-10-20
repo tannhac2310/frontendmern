@@ -15,7 +15,7 @@ const PlaceOrderScreen = () => {
   const { order, success, error } = useSelector((state) => state.orderCreate);
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  //   //Caculate Price
+  //Caculate Price
   const addDecimals = (num) => {
     return (Math.round(num * 100) / 100).toFixed(2);
   };
